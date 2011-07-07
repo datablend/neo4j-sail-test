@@ -76,7 +76,7 @@ public class Test {
                         "?flight fl:flightToCityName ?destination . " +
                         "?flight io:duration \"1:35\" . " +
                 "}");
-        System.out.println("Printing sparql query results ...");
+        System.out.println("Printing sparql query results ....");
         TupleQueryResult result = durationquery.evaluate();
         while (result.hasNext()) {
             BindingSet binding = result.next();
