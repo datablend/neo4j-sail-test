@@ -1,14 +1,7 @@
 package be.datablend.sailtest;
 
-import org.neo4j.graphdb.GraphDatabaseService;
-import org.neo4j.index.IndexService;
-import org.neo4j.index.lucene.LuceneIndexService;
-import org.neo4j.kernel.EmbeddedGraphDatabase;
-import org.neo4j.rdf.fulltext.FulltextIndex;
-import org.neo4j.rdf.fulltext.SimpleFulltextIndex;
-import org.neo4j.rdf.sail.GraphDatabaseSail;
-import org.neo4j.rdf.store.RdfStore;
-import org.neo4j.rdf.store.VerboseQuadStore;
+import com.tinkerpop.blueprints.pgm.TransactionalGraph;
+import com.tinkerpop.blueprints.pgm.oupls.sail.GraphSail;
 import org.openrdf.model.Resource;
 import org.openrdf.query.*;
 import org.openrdf.repository.RepositoryConnection;
@@ -16,50 +9,44 @@ import org.openrdf.repository.RepositoryException;
 import org.openrdf.repository.sail.SailRepository;
 import org.openrdf.rio.RDFFormat;
 import org.openrdf.rio.RDFParseException;
-import org.openrdf.sail.Sail;
 import org.openrdf.sail.SailException;
+import com.tinkerpop.blueprints.pgm.impls.neo4j.Neo4jGraph;
 
-import java.io.File;
 import java.io.IOException;
 
 /**
  * User: dsuvee
- * Date: 7/07/11
+ * Date: 15/07/11
  */
 public class Test {
 
-    private GraphDatabaseService graphDb = null;
-    private IndexService indexService = null;
-    private FulltextIndex fulltextIndex = null;
-    private RdfStore rdfStore = null;
-    private Sail sail = null;
+    private Neo4jGraph graph = null;
+    private GraphSail sail = null;
     private RepositoryConnection connection = null;
 
     public void openSailConnection() throws SailException, RepositoryException {
         // Create the sail graph database
-        graphDb = new EmbeddedGraphDatabase("var/flights");
-        indexService = new LuceneIndexService(graphDb);
-        fulltextIndex = new SimpleFulltextIndex(graphDb, new File("var/flights/lucene-fulltext"));
-        rdfStore = new VerboseQuadStore(graphDb, indexService, null, fulltextIndex);
-        sail = new GraphDatabaseSail(graphDb, rdfStore);
+        graph = new MyNeo4jGraph("var/flights", 100000);
+        graph.setTransactionMode(TransactionalGraph.Mode.MANUAL);
+        sail = new GraphSail(graph);
 
         // Initialize the sail store
         sail.initialize();
 
         // Get the sail repository connection
         connection = new SailRepository(sail).getConnection();
+        connection.setAutoCommit(false);
     }
 
     public void closeSailConnection() throws SailException {
         sail.shutDown();
-        indexService.shutdown();
-        graphDb.shutdown();
+        graph.shutdown();
     }
 
     public void importData() throws SailException, RepositoryException, IOException, RDFParseException {
         System.out.println("Import started ...");
         // Import the data
-        connection.add(getClass().getClassLoader().getResource("sneeair.rdf"), null, RDFFormat.RDFXML, new Resource[]{});
+        connection.add(getClass().getClassLoader().getResource("sneeair.rdf"), null, RDFFormat.RDFXML);
         System.out.println("Import stopped ...");
     }
 
@@ -74,7 +61,7 @@ public class Test {
                         "?flight io:flight ?number . " +
                         "?flight fl:flightFromCityName ?departure . " +
                         "?flight fl:flightToCityName ?destination . " +
-                        "?flight io:duration \"1:35\" . " +
+                        "?flight io:duration \"0:01\" . " +
                 "}");
         System.out.println("Printing sparql query results ....");
         TupleQueryResult result = durationquery.evaluate();
@@ -90,7 +77,7 @@ public class Test {
         test.openSailConnection();
 
         // Import the flight data
-        test.importData();
+        //test.importData();
 
         // Execute a sparql query
         test.findFlightData();
