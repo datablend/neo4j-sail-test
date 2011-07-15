@@ -28,7 +28,6 @@
             <name>Aduna repository</name>
             <url>http://repo.aduna-software.org/maven2/releases</url>
         </repository>
-
     </repositories>
 
     <dependencies>
