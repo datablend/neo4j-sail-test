@@ -23,7 +23,15 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+<<<<<<< HEAD
         
+=======
+        <repository>
+            <id>aduna-repo</id>
+            <name>Aduna repository</name>
+            <url>http://repo.aduna-software.org/maven2/releases</url>
+        </repository>
+>>>>>>> f1b91d3066704e82473835a3488e7720e5be49bf
     </repositories>
 
     <dependencies>
@@ -54,4 +62,8 @@
         </dependency>
     </dependencies>
 
+<<<<<<< HEAD
 </project>
+=======
+</project>
+>>>>>>> f1b91d3066704e82473835a3488e7720e5be49bf
