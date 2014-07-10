@@ -1,0 +1,337 @@
+2014-07-10 18:14:42.497+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2014-07-10 18:14:42.506+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2014-07-10 18:14:42.511+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=331M
+2014-07-10 18:14:42.511+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=92M
+2014-07-10 18:14:42.511+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=406M
+2014-07-10 18:14:42.512+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=282M
+2014-07-10 18:14:42.512+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=var/flights
+2014-07-10 18:14:42.512+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=319M
+2014-07-10 18:14:42.515+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2014-07-10 18:14:42.516+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2014-07-10 18:14:42.516+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2014-07-10 18:14:42.516+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2014-07-10 18:14:42.516+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2014-07-10 18:14:42.516+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2014-07-10 18:14:42.516+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2014-07-10 18:14:42.516+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2014-07-10 18:14:42.516+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2014-07-10 18:14:42.516+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2014-07-10 18:14:42.516+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2014-07-10 18:14:42.516+0000 INFO  [o.n.k.i.DiagnosticsManager]: NodeCache
+2014-07-10 18:14:42.516+0000 INFO  [o.n.k.i.DiagnosticsManager]: RelationshipCache
+2014-07-10 18:14:42.517+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2014-07-10 18:14:42.522+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 4.00 GB
+2014-07-10 18:14:42.523+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 9.41 MB
+2014-07-10 18:14:42.527+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 3.58 GB
+2014-07-10 18:14:42.529+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 2.00 GB
+2014-07-10 18:14:42.530+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 1.35 GB
+2014-07-10 18:14:42.533+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2014-07-10 18:14:42.533+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 55.83 MB
+2014-07-10 18:14:42.533+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 115.00 MB
+2014-07-10 18:14:42.534+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 910.50 MB
+2014-07-10 18:14:42.542+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2014-07-10 18:14:42.542+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2014-07-10 18:14:42.543+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=1.60 MB, max=48.00 MB, threshold=0.00 B
+2014-07-10 18:14:42.544+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Eden Space (Heap memory): committed=66.00 MB, used=42.83 MB, max=326.50 MB, threshold=?
+2014-07-10 18:14:42.545+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Survivor Space (Heap memory): committed=6.50 MB, used=6.49 MB, max=6.50 MB, threshold=?
+2014-07-10 18:14:42.545+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Old Gen (Heap memory): committed=42.50 MB, used=9.85 MB, max=682.50 MB, threshold=0.00 B
+2014-07-10 18:14:42.546+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Perm Gen (Non-heap memory): committed=21.00 MB, used=18.88 MB, max=82.00 MB, threshold=0.00 B
+2014-07-10 18:14:42.546+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2014-07-10 18:14:42.547+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Mac OS X; version: 10.9.2; arch: x86_64; cpus: 4
+2014-07-10 18:14:42.548+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max number of file descriptors: 10240
+2014-07-10 18:14:42.549+0000 INFO  [o.n.k.i.DiagnosticsManager]: Number of open file descriptors: 177
+2014-07-10 18:14:42.549+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 94690@kathryns-mbp
+2014-07-10 18:14:42.550+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2014-07-10 18:14:42.550+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: America/New_York
+2014-07-10 18:14:42.550+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2014-07-10 18:14:42.550+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2014-07-10 18:14:42.551+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2014-07-10 18:14:42.551+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.55-b03
+2014-07-10 18:14:42.552+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2014-07-10 18:14:42.553+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-Dclassworlds.conf=/usr/local/Cellar/maven/3.2.1/libexec/bin/m2.conf, -Dmaven.home=/usr/local/Cellar/maven/3.2.1/libexec]
+2014-07-10 18:14:42.554+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2014-07-10 18:14:42.559+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-queryalgebra-model/2.7.12/sesame-queryalgebra-model-2.7.12.jar
+2014-07-10 18:14:42.559+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-rio-rdfxml/2.7.12/sesame-rio-rdfxml-2.7.12.jar
+2014-07-10 18:14:42.559+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+2014-07-10 18:14:42.559+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/neo4j/neo4j-cluster/1.9.6/neo4j-cluster-1.9.6.jar
+2014-07-10 18:14:42.559+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-rio-trig/2.7.12/sesame-rio-trig-2.7.12.jar
+2014-07-10 18:14:42.559+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/vecmath.jar
+2014-07-10 18:14:42.559+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/codehaus/jettison/jettison/1.3.3/jettison-1.3.3.jar
+2014-07-10 18:14:42.559+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar
+2014-07-10 18:14:42.559+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/ch/qos/logback/logback-core/0.9.30/logback-core-0.9.30.jar
+2014-07-10 18:14:42.559+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/apache/zookeeper/zookeeper/3.3.2/zookeeper-3.3.2.jar
+2014-07-10 18:14:42.559+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-rio-languages/2.7.12/sesame-rio-languages-2.7.12.jar
+2014-07-10 18:14:42.559+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.3.1/concurrentlinkedhashmap-lru-1.3.1.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/libJ3D.jnilib
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-repository-api/2.7.12/sesame-repository-api-2.7.12.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-http-protocol/2.7.10/sesame-http-protocol-2.7.10.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-queryresultio-api/2.7.10/sesame-queryresultio-api-2.7.10.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/QTJava.zip
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/com/tinkerpop/blueprints/blueprints-core/2.5.0/blueprints-core-2.5.0.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/j3daudio.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/j3dcore.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/java/libjdns_sd.jnilib
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-repository-sail/2.7.12/sesame-repository-sail-2.7.12.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/neo4j/neo4j-cypher/1.9.6/neo4j-cypher-1.9.6.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/com/tinkerpop/blueprints/blueprints-graph-sail/2.5.0/blueprints-graph-sail-2.5.0.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/jai_core.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/neo4j/neo4j-kernel/1.9.6/neo4j-kernel-1.9.6.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/sunec.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/apache/lucene/lucene-core/3.6.2/lucene-core-3.6.2.jar
+2014-07-10 18:14:42.560+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-queryalgebra-evaluation/2.7.10/sesame-queryalgebra-evaluation-2.7.10.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-queryresultio-sparqlxml/2.7.10/sesame-queryresultio-sparqlxml-2.7.10.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.1] file:/usr/local/Cellar/maven/3.2.1/libexec/boot/plexus-classworlds-2.5.1.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/rt.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-rio-datatypes/2.7.12/sesame-rio-datatypes-2.7.12.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-sail-api/2.7.10/sesame-sail-api-2.7.10.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-repository-sparql/2.7.10/sesame-repository-sparql-2.7.10.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-queryparser-serql/2.7.10/sesame-queryparser-serql-2.7.10.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/classes
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/dns_sd.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/neo4j/neo4j-consistency-check/1.9.6/neo4j-consistency-check-1.9.6.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/neo4j/neo4j-graph-matching/1.9.6/neo4j-graph-matching-1.9.6.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/json/json/20090211/json-20090211.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-model/2.7.10/sesame-model-2.7.10.jar
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+2014-07-10 18:14:42.561+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-rio-ntriples/2.7.10/sesame-rio-ntriples-2.7.10.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/ch/qos/logback/logback-classic/0.9.30/logback-classic-0.9.30.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-query/2.7.12/sesame-query-2.7.12.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/colt/colt/1.2.0/colt-1.2.0.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/neo4j/neo4j-backup/1.9.6/neo4j-backup-1.9.6.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-rio-api/2.7.12/sesame-rio-api-2.7.12.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/neo4j/neo4j-lucene-index/1.9.6/neo4j-lucene-index-1.9.6.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-http-client/2.7.10/sesame-http-client-2.7.10.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/neo4j/neo4j-com/1.9.6/neo4j-com-1.9.6.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jce.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/sunrsasign.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jfr.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/io/netty/netty/3.6.3.Final/netty-3.6.3.Final.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-sail-inferencer/2.7.10/sesame-sail-inferencer-2.7.10.jar
+2014-07-10 18:14:42.562+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/com/tinkerpop/blueprints/blueprints-neo4j-graph/2.5.0/blueprints-neo4j-graph-2.5.0.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/localedata.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/j3dutils.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/Documents/repos/neo4j-sail-test/target/classes/
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/resources.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/charsets.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/neo4j/neo4j-ha/1.9.6/neo4j-ha-1.9.6.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/System/Library/Java/Extensions/jai_codec.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/net/fortytwo/sesametools/common/1.8/common-1.8.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/neo4j/neo4j-management/1.9.6/neo4j-management-1.9.6.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-queryparser-sparql/2.7.12/sesame-queryparser-sparql-2.7.12.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-json-org/2.2.3/jackson-datatype-json-org-2.2.3.jar
+2014-07-10 18:14:42.563+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2014-07-10 18:14:42.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/concurrent/concurrent/1.3.4/concurrent-1.3.4.jar
+2014-07-10 18:14:42.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/neo4j/neo4j-udc/1.9.6/neo4j-udc-1.9.6.jar
+2014-07-10 18:14:42.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jsse.jar
+2014-07-10 18:14:42.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/neo4j/neo4j-jmx/1.9.6/neo4j-jmx-1.9.6.jar
+2014-07-10 18:14:42.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-util/2.7.10/sesame-util-2.7.10.jar
+2014-07-10 18:14:42.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-queryparser-api/2.7.12/sesame-queryparser-api-2.7.12.jar
+2014-07-10 18:14:42.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+2014-07-10 18:14:42.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/openrdf/sesame/sesame-rio-turtle/2.7.12/sesame-rio-turtle-2.7.12.jar
+2014-07-10 18:14:42.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/KathrynHopkinsMcgill/.m2/repository/org/neo4j/neo4j-graph-algo/1.9.6/neo4j-graph-algo-1.9.6.jar
+2014-07-10 18:14:42.564+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2014-07-10 18:14:42.564+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/KathrynHopkinsMcgill/Library/Java/Extensions
+2014-07-10 18:14:42.564+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Library/Java/Extensions
+2014-07-10 18:14:42.564+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Network/Library/Java/Extensions
+2014-07-10 18:14:42.565+0000 INFO  [o.n.k.i.DiagnosticsManager]: /System/Library/Java/Extensions
+2014-07-10 18:14:42.565+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib/java
+2014-07-10 18:14:42.565+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/KathrynHopkinsMcgill/Documents/repos/neo4j-sail-test
+2014-07-10 18:14:42.565+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2014-07-10 18:14:42.565+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: gopherProxySet = false
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: guice.disable.misplaced.annotation.check = true
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = :
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = unknown
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = /Users/KathrynHopkinsMcgill/Documents/repos/neo4j-sail-test
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: classworlds.conf = /usr/local/Cellar/maven/3.2.1/libexec/bin/m2.conf
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = UTF-8
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = /Users/KathrynHopkinsMcgill
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = America/New_York
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = UTF-8
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = KathrynHopkinsMcgill
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.slf4j.simpleLogger.defaultLogLevel = info
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = org.codehaus.plexus.classworlds.launcher.Launcher exec:java
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2014-07-10 18:14:42.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2014-07-10 18:14:42.567+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2014-07-10 18:14:42.567+0000 INFO  [o.n.k.i.DiagnosticsManager]: maven.home = /usr/local/Cellar/maven/3.2.1/libexec
+2014-07-10 18:14:42.567+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = /
+2014-07-10 18:14:42.567+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeBig
+2014-07-10 18:14:42.567+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2014-07-10 18:14:42.567+0000 INFO  [o.n.k.i.DiagnosticsManager]: socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-07-10 18:14:42.567+0000 INFO  [o.n.k.i.DiagnosticsManager]: ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-07-10 18:14:42.567+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = 
+2014-07-10 18:14:42.567+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2014-07-10 18:14:42.571+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface en0:
+2014-07-10 18:14:42.571+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:7a31:c1ff:fec0:d22%4
+2014-07-10 18:14:42.571+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.1.96
+2014-07-10 18:14:42.571+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface lo0:
+2014-07-10 18:14:42.571+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:0:0:1%1
+2014-07-10 18:14:42.571+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2014-07-10 18:14:42.572+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2014-07-10 18:14:42.572+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2014-07-10 18:14:42.845+0000 INFO  [o.n.k.i.n.s.StoreFactory]: Creating new db @ var/flights/neostore
+2014-07-10 18:14:42.863+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.nodestore.db] brickCount=0 brickSize=964683b mappedMem=96468992b (storeSize=0b)
+2014-07-10 18:14:42.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
+2014-07-10 18:14:42.879+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-07-10 18:14:42.882+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-07-10 18:14:42.882+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-07-10 18:14:42.882+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-07-10 18:14:42.883+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-07-10 18:14:42.884+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-07-10 18:14:42.885+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.propertystore.db.strings] brickCount=0 brickSize=295680b mappedMem=295698432b (storeSize=128b)
+2014-07-10 18:14:42.885+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-07-10 18:14:42.887+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-07-10 18:14:42.888+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.propertystore.db.arrays] brickCount=0 brickSize=334464b mappedMem=334495744b (storeSize=128b)
+2014-07-10 18:14:42.892+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.propertystore.db] brickCount=0 brickSize=3470773b mappedMem=347078656b (storeSize=0b)
+2014-07-10 18:14:42.894+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.relationshipstore.db] brickCount=0 brickSize=4257198b mappedMem=425721856b (storeSize=0b)
+2014-07-10 18:14:42.894+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.nodestore.db] brickCount=0 brickSize=96462b mappedMem=96468992b (storeSize=9b)
+2014-07-10 18:14:42.895+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-07-10 18:14:42.899+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-07-10 18:14:42.900+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-07-10 18:14:42.900+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-07-10 18:14:42.901+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2014-07-10 18:14:42.902+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2014-07-10 18:14:42.902+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-07-10 18:14:42.903+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2014-07-10 18:14:42.903+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2014-07-10 18:14:42.904+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2014-07-10 18:14:42.905+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore hit=0 miss=8 switches=0 ooe=0
+2014-07-10 18:14:42.909+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-07-10 18:14:42.909+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-07-10 18:14:42.910+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.propertystore.db.strings] brickCount=0 brickSize=295680b mappedMem=295698432b (storeSize=128b)
+2014-07-10 18:14:42.910+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-07-10 18:14:42.910+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-07-10 18:14:42.911+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.propertystore.db.arrays] brickCount=0 brickSize=334464b mappedMem=334495744b (storeSize=128b)
+2014-07-10 18:14:42.911+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.propertystore.db] brickCount=0 brickSize=3470773b mappedMem=347078656b (storeSize=0b)
+2014-07-10 18:14:42.911+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.relationshipstore.db] brickCount=0 brickSize=4257198b mappedMem=425721856b (storeSize=0b)
+2014-07-10 18:14:42.912+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore.nodestore.db] brickCount=0 brickSize=96462b mappedMem=96468992b (storeSize=9b)
+2014-07-10 18:14:42.923+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [var/flights/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2014-07-10 18:14:42.959+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [var/flights/nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2014-07-10 18:14:42.965+0000 INFO  [o.n.k.i.t.TxManager]: TM new log: tm_tx_log.1
+2014-07-10 18:14:43.083+0000 INFO  [o.n.b.BackupServer]: BackupServer communication server started and bound to 0.0.0.0/0.0.0.0:6362
+2014-07-10 18:14:43.153+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [var/flights/index/lucene.log.1] version=0, lastTxId=1 (clean)
+2014-07-10 18:14:43.157+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2014-07-10 18:14:43.157+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1405016082846, id:-5434729508808169697, store version: 13561656364791302]
+2014-07-10 18:14:43.157+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j - Graph Database Kernel 1.9.6
+2014-07-10 18:14:43.157+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2014-07-10 18:14:43.158+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Database Kernel 1.9.6
+2014-07-10 18:14:43.158+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2014-07-10 18:14:43.160+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2014-07-10 18:14:43.161+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2014-07-10 18:14:43.161+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2014-07-10 18:14:43.161+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.0
+2014-07-10 18:14:43.161+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.0
+2014-07-10 18:14:43.161+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.0
+2014-07-10 18:14:43.161+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.0
+2014-07-10 18:14:43.161+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.0
+2014-07-10 18:14:43.161+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.0
+2014-07-10 18:14:43.161+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.0
+2014-07-10 18:14:43.161+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.0
+2014-07-10 18:14:43.161+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2014-07-10 18:14:43.162+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2014-07-10 18:14:43.162+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2014-07-10 18:14:43.162+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2014-07-10 18:14:43.162+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=1 high=0
+2014-07-10 18:14:43.162+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=0 high=-1
+2014-07-10 18:14:43.162+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=0 high=-1
+2014-07-10 18:14:43.162+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=0 high=-1
+2014-07-10 18:14:43.162+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=0 high=-1
+2014-07-10 18:14:43.162+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=1 high=0
+2014-07-10 18:14:43.163+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2014-07-10 18:14:43.163+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2014-07-10 18:14:43.163+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2014-07-10 18:14:43.163+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2014-07-10 18:14:43.163+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2014-07-10 18:14:43.163+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 120473067520 / 47197093888 / 39
+Storage files: (filename : modification date - size)
+2014-07-10 18:14:43.164+0000 INFO  [o.n.k.i.DiagnosticsManager]:   active_tx_log: 2014-07-10T14:14:42-0400 - 11.00 B
+2014-07-10 18:14:43.164+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2014-07-10 18:14:43.164+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene-store.db: 2014-07-10T14:14:43-0400 - 40.00 B
+2014-07-10 18:14:43.164+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.1: 2014-07-10T14:14:43-0400 - 16.00 B
+2014-07-10 18:14:43.164+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.active: 2014-07-10T14:14:43-0400 - 4.00 B
+2014-07-10 18:14:43.165+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2014-07-10T14:14:43-0400 - 60.00 B
+2014-07-10 18:14:43.165+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2014-07-10T14:14:42-0400 - 0.00 B
+2014-07-10 18:14:43.165+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2014-07-10T14:14:43-0400 - 38.25 kB
+2014-07-10 18:14:43.165+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2014-07-10T14:14:42-0400 - 54.00 B
+2014-07-10 18:14:43.165+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2014-07-10T14:14:42-0400 - 9.00 B
+2014-07-10 18:14:43.166+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2014-07-10T14:14:42-0400 - 9.00 B
+2014-07-10 18:14:43.166+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2014-07-10T14:14:42-0400 - 9.00 B
+2014-07-10 18:14:43.166+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2014-07-10T14:14:42-0400 - 0.00 B
+2014-07-10 18:14:43.166+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2014-07-10T14:14:42-0400 - 128.00 B
+2014-07-10 18:14:43.166+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2014-07-10T14:14:42-0400 - 9.00 B
+2014-07-10 18:14:43.166+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2014-07-10T14:14:42-0400 - 9.00 B
+2014-07-10 18:14:43.167+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2014-07-10T14:14:42-0400 - 0.00 B
+2014-07-10 18:14:43.167+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2014-07-10T14:14:42-0400 - 9.00 B
+2014-07-10 18:14:43.167+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2014-07-10T14:14:42-0400 - 38.00 B
+2014-07-10 18:14:43.167+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2014-07-10T14:14:42-0400 - 9.00 B
+2014-07-10 18:14:43.168+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2014-07-10T14:14:42-0400 - 128.00 B
+2014-07-10 18:14:43.168+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2014-07-10T14:14:42-0400 - 9.00 B
+2014-07-10 18:14:43.168+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2014-07-10T14:14:42-0400 - 0.00 B
+2014-07-10 18:14:43.168+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2014-07-10T14:14:42-0400 - 9.00 B
+2014-07-10 18:14:43.168+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2014-07-10T14:14:42-0400 - 0.00 B
+2014-07-10 18:14:43.169+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2014-07-10T14:14:42-0400 - 9.00 B
+2014-07-10 18:14:43.169+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2014-07-10T14:14:42-0400 - 38.00 B
+2014-07-10 18:14:43.169+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2014-07-10T14:14:42-0400 - 9.00 B
+2014-07-10 18:14:43.169+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.1: 2014-07-10T14:14:42-0400 - 16.00 B
+2014-07-10 18:14:43.169+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.active: 2014-07-10T14:14:42-0400 - 4.00 B
+2014-07-10 18:14:43.170+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2014-07-10T14:14:42-0400 - 0.00 B
+2014-07-10 18:14:43.170+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.1: 2014-07-10T14:14:42-0400 - 0.00 B
+2014-07-10 18:14:43.170+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2014-07-10 18:14:43.171+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor started. 
+2014-07-10 18:14:43.173+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now ready
+2014-07-10 18:14:46.351+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 364ms [total block time: 0.364s]
+2014-07-10 18:14:48.569+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 814ms [total block time: 1.178s]
+2014-07-10 18:14:49.163+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 191ms [total block time: 1.369s]
+2014-07-10 18:14:50.654+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1090ms [total block time: 2.459s]
+2014-07-10 18:14:51.247+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 190ms [total block time: 2.649s]
+2014-07-10 18:14:55.224+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1607ms [total block time: 4.256s]
+2014-07-10 18:15:19.940+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Shutdown started
+2014-07-10 18:15:19.949+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is no longer ready
+2014-07-10 18:15:19.956+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor stopped. 
+2014-07-10 18:15:19.964+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log var/flights/index/lucene.log
+2014-07-10 18:15:19.982+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2014-07-10 18:15:20.079+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log var/flights/nioneo_logical.log
+2014-07-10 18:15:20.083+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.relationshiptypestore.db.names hit=0 miss=26 switches=0 ooe=0
+2014-07-10 18:15:20.084+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.relationshiptypestore.db hit=0 miss=13 switches=0 ooe=0
+2014-07-10 18:15:20.087+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.propertystore.db.strings hit=173940 miss=0 switches=0 ooe=0
+2014-07-10 18:15:20.094+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.propertystore.db.index.keys hit=0 miss=7 switches=0 ooe=0
+2014-07-10 18:15:20.098+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.propertystore.db.index hit=0 miss=7 switches=0 ooe=0
+2014-07-10 18:15:20.100+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.propertystore.db.arrays hit=9 miss=0 switches=0 ooe=0
+2014-07-10 18:15:20.101+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.propertystore.db hit=100201 miss=0 switches=0 ooe=0
+2014-07-10 18:15:20.104+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.relationshipstore.db hit=85692 miss=0 switches=0 ooe=0
+2014-07-10 18:15:20.105+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore.nodestore.db hit=18164 miss=0 switches=0 ooe=0
+2014-07-10 18:15:20.106+0000 INFO  [o.n.k.i.n.s.StoreFactory]: var/flights/neostore hit=0 miss=44 switches=0 ooe=0
+2014-07-10 18:15:20.107+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2014-07-10 18:15:20.107+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2014-07-10 18:15:20.107+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
