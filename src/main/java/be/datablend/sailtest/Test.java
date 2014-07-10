@@ -1,7 +1,9 @@
+
+
 package be.datablend.sailtest;
 
-import com.tinkerpop.blueprints.pgm.TransactionalGraph;
-import com.tinkerpop.blueprints.pgm.oupls.sail.GraphSail;
+import com.tinkerpop.blueprints.TransactionalGraph;
+import com.tinkerpop.blueprints.oupls.sail.GraphSail;
 import org.openrdf.model.Resource;
 import org.openrdf.query.*;
 import org.openrdf.repository.RepositoryConnection;
@@ -10,7 +12,8 @@ import org.openrdf.repository.sail.SailRepository;
 import org.openrdf.rio.RDFFormat;
 import org.openrdf.rio.RDFParseException;
 import org.openrdf.sail.SailException;
-import com.tinkerpop.blueprints.pgm.impls.neo4j.Neo4jGraph;
+import com.tinkerpop.blueprints.impls.neo4j.Neo4jGraph;
+
 
 import java.io.IOException;
 
@@ -27,7 +30,7 @@ public class Test {
     public void openSailConnection() throws SailException, RepositoryException {
         // Create the sail graph database
         graph = new MyNeo4jGraph("var/flights", 100000);
-        graph.setTransactionMode(TransactionalGraph.Mode.MANUAL);
+
         sail = new GraphSail(graph);
 
         // Initialize the sail store
@@ -65,6 +68,8 @@ public class Test {
                 "}");
         System.out.println("Printing sparql query results ....");
         TupleQueryResult result = durationquery.evaluate();
+
+
         while (result.hasNext()) {
             BindingSet binding = result.next();
             System.out.println(binding.getBinding("number").getValue() + " " + binding.getBinding("departure").getValue() + " " + binding.getBinding("destination").getValue());

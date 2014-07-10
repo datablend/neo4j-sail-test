@@ -1,8 +1,8 @@
 package be.datablend.sailtest;
 
-import com.tinkerpop.blueprints.pgm.Edge;
-import com.tinkerpop.blueprints.pgm.Vertex;
-import com.tinkerpop.blueprints.pgm.impls.neo4j.Neo4jGraph;
+ import com.tinkerpop.blueprints.Edge;
+ import com.tinkerpop.blueprints.Vertex;
+ import com.tinkerpop.blueprints.impls.neo4j.Neo4jGraph;
 
 import java.util.Map;
 
@@ -43,7 +43,7 @@ public class MyNeo4jGraph extends Neo4jGraph {
             // Stop the transaction
             stopTransaction(Conclusion.SUCCESS);
             // Immediately start a new one
-            startTransaction();
+           // startTransaction();
         }
     }
 
